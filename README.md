@@ -27,9 +27,7 @@ You (natural language) → Claude Desktop → MCP Protocol → This Server → O
 
 ## Install
 
-Two options. Pick the one that fits how you work.
-
-### Option A: One-Click Install (Recommended)
+### A: One-Click Install (Recommended)
 
 Available in v2.0.0 and later. Download the Desktop Extension, install it, done. No path editing, no JSON config file.
 
