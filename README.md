@@ -82,19 +82,6 @@ Windows example:
 }
 ```
 
-Mac example:
-
-```json
-{
-  "mcpServers": {
-    "oracle-epm-cloud": {
-      "command": "node",
-      "args": ["/Users/fred/oracle-epm-mcp-server/server/index.js"]
-    }
-  }
-}
-```
-
 **Step 3: Restart Claude Desktop**
 
 Quit Claude Desktop completely and reopen it. You should see the MCP tools icon (hammer) in the chat input area. Click it to verify "oracle-epm-cloud" is listed.
