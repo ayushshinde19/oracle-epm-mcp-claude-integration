@@ -1,0 +1,39 @@
+{
+  "name": "oracle-epm-mcp-server",
+  "version": "2.0.0",
+  "description": "FMEPM Connect Core connects AI assistants to Oracle EPM through REST APIs.",
+  "main": "index.js",
+  "engines": {
+    "node": ">=22.0.0"
+  },
+  "bin": {
+    "oracle-epm-mcp": "./index.js"
+  },
+  "scripts": {
+    "start": "node index.js",
+    "test": "node --test test/*.test.js"
+  },
+  "keywords": [
+    "oracle",
+    "epm",
+    "mcp",
+    "ai",
+    "planning",
+    "fccs",
+    "pbcs",
+    "finance",
+    "fpa",
+    "claude"
+  ],
+  "author": "Fred Mamadjanov (https://fmepm.com)",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/fmepm/oracle-epm-mcp-server"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.29.0",
+    "node-fetch": "^2.7.0",
+    "zod": "^3.22.0"
+  }
+}
