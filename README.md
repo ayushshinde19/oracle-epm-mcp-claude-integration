@@ -117,4 +117,3 @@ When you have access to an Oracle EPM Cloud environment, set these environment v
   }
 }
 ```
-now hitting your real environment.
